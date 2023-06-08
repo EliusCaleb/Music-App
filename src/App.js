@@ -1,6 +1,6 @@
 
 import './App.css';
-import {Home, Layout} from "./router"
+import {Browser, Home, Layout} from "./router"
 import { BrowserRouter as Router, Routes,Route } from 'react-router-dom';
 
 function App() {
@@ -8,13 +8,22 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route    path='/'   element= {
-                  <Layout>
-                  <Home/>
-                </Layout>
+        <Route
+          path='/'
+          element={
+            <Layout>
+              <Home />
+            </Layout>
           }
-          
-          />
+        />
+        <Route
+          path='/browser'
+          element={
+            <Layout>
+              <Browser />
+            </Layout>
+          }
+        />
         </Routes>
       </Router>
       <Home/>

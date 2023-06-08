@@ -1,8 +1,12 @@
-import React from 'react'
+import React from "react"
+import { Browse, LayoutSidebar } from "../router"
 
 export const Browser = () => {
   return (
-    <div>Browser</div>
+    <>
+      <LayoutSidebar>
+        <Browse />
+      </LayoutSidebar>
+    </>
   )
 }
-
