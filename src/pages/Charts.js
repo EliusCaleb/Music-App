@@ -1,8 +1,13 @@
-import React from 'react'
+import React from "react"
+import { LayoutSidebar, Chart } from "../router"
 
 export const Charts = () => {
   return (
-    <div>Charts</div>
+    <>
+      <LayoutSidebar>
+        <Chart />
+      </LayoutSidebar>
+    </>
   )
 }
 

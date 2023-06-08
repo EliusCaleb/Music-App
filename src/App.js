@@ -1,13 +1,10 @@
-
-import './App.css';
-import {Browser, Home, Layout} from "./router"
-import { BrowserRouter as Router, Routes,Route } from 'react-router-dom';
+import { Artist, Browser, Charts,  Home, Layout } from "./router"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <Routes>
+    <Router>
+      <Routes>
         <Route
           path='/'
           element={
@@ -24,13 +21,25 @@ function App() {
             </Layout>
           }
         />
-        </Routes>
-      </Router>
-      <Home/>
-      <h1 className='text-primary'>Hello</h1>
-       
-    </div>
-  );
+        <Route
+          path='/charts'
+          element={
+            <Layout>
+              <Charts />
+            </Layout>
+          }
+        />
+        <Route
+          path='/artists'
+          element={
+            <Layout>
+              <Artist />
+            </Layout>
+          }
+        />
+      </Routes>
+    </Router>
+  )
 }
 
-export default App;
+export default App
