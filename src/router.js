@@ -1,7 +1,7 @@
 export { Header } from "./components/header/Header"
 export { Layout } from "./components/layout/Layout"
 export { Hero } from "./components/hero/Hero"
-export { Treading } from "./components/hero/Treading"
+export { Trending } from "./components/hero/Trending"
 export { LayoutSidebar } from "./components/layout/LayoutSidebar"
 export { New } from "./components/hero/New"
 export { Recommand } from "./components/hero/Recommand"
