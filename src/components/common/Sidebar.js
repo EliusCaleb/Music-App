@@ -2,7 +2,7 @@ import React from "react"
 import { AiFillApple } from "react-icons/ai"
 import { IoPlaySharp } from "react-icons/io5"
 import { recommand } from "../assets/data/data"
-import { Card_sm } from "./Card_sm"
+import { CardSmall } from "./CardSmall"
 
 export const Sidebar = () => {
   return (
@@ -11,7 +11,7 @@ export const Sidebar = () => {
         <h1 className='mb-5 text-lg font-semibold text-gray-600'>5 Likes</h1>
         {recommand.slice(0, 5).map((item, i) => (
           <div className='mb-3'>
-            <Card_sm cover={item.cover} name={item.name} tag={item.tag} i={i} />
+            <CardSmall cover={item.cover} name={item.name} tag={item.tag} i={i} />
           </div>
         ))}
         <h1 className='mb-5 text-lg font-semibold text-gray-600 mt-5'>Go Mobile</h1>
