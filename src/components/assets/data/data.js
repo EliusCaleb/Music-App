@@ -66,7 +66,7 @@ export const navBar = [
       cover: "../images/b3.jpg",
     },
   ]
-  export const treading = [
+  export const trending = [
     {
       id: 1,
       name: "What A Time To Be Alive",
