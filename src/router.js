@@ -5,7 +5,7 @@ export { Treading } from "./components/hero/Treading"
 export { LayoutSidebar } from "./components/layout/LayoutSidebar"
 export { New } from "./components/hero/New"
 export { Recommand } from "./components/hero/Recommand"
-export { Browse } from "./components/browse/Browse"
+export { Browse } from "./components/browser/Browse"
 export { Chart } from "./components/charts/Chart"
 export { Artists } from "./components/artist/Artists"
 

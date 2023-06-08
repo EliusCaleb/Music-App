@@ -1,9 +1,8 @@
 import React from 'react'
 
-const Recommand = () => {
+export const Recommand = () => {
   return (
     <div>Recommand</div>
   )
 }
 
-export default Recommand

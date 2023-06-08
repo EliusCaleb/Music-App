@@ -1,9 +1,8 @@
 import React from 'react'
 
-const Hero = () => {
+export const Hero = () => {
   return (
     <div>Hero</div>
   )
 }
 
-export default Hero

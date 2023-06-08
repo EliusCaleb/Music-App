@@ -1,9 +1,8 @@
 import React from 'react'
 
-const Artists = () => {
+export const Artists = () => {
   return (
     <div>Artists</div>
   )
 }
 
-export default Artists
