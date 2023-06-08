@@ -1,8 +1,11 @@
 import React from 'react'
+import {Hero} from "../router"
 
 export const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Hero/>
+    </div>
   )
 }
 
