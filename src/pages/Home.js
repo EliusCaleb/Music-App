@@ -1,11 +1,15 @@
-import React from 'react'
-import {Hero} from "../router"
+import React from "react"
+import { Hero, LayoutSidebar, Trending } from "../router"
 
 export const Home = () => {
   return (
-    <div>
-      <Hero/>
-    </div>
+    <>
+      <Hero />
+      <LayoutSidebar>
+        <Trending />
+      
+      </LayoutSidebar>
+    </>
   )
 }
 
