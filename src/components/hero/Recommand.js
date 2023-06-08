@@ -1,8 +1,19 @@
-import React from 'react'
+import React from "react"
+import { recommand } from "../assets/data/data"
+import { CardSmall } from "../common/CardSmall"
+import { Title } from "../common/Title"
 
 export const Recommand = () => {
   return (
-    <div>Recommand</div>
+    <>
+      <section className='treading hero mt-7 pb-32'>
+        <Title title='Recommand for you' />
+        <div className='grid grid-cols-2 gap-5'>
+          {recommand.map((item, i) => (
+            <CardSmall cover={item.cover} name={item.name} tag={item.tag} i={i} />
+          ))}
+        </div>
+      </section>
+    </>
   )
 }
-

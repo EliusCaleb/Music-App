@@ -1,5 +1,5 @@
 import React from "react"
-import { Hero, LayoutSidebar,New,Trending } from "../router"
+import { Hero, LayoutSidebar,New,Recommand,Trending } from "../router"
 
 export const Home = () => {
   return (
@@ -8,6 +8,7 @@ export const Home = () => {
       <LayoutSidebar>
         <Trending />
         <New/>
+        <Recommand />
       </LayoutSidebar>
     </>
   )
